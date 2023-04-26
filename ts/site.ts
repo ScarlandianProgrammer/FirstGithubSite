@@ -13,5 +13,6 @@ function submission() {
     } else {
         alert("You don't have to lie to me, I know it wasn't that good...");
     }
-    document.getElementById("form").reset();
+    let form = <HTMLFormElement>document.getElementById("form");
+    form.reset();
 }
