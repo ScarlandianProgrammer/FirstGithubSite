@@ -15,30 +15,17 @@
 <body>
     <h1>Form</h1>
 
-    <p>
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-        Form Form Form Form Form Form Form Form Form Form 
-    </p>
+    <form id="form" action="">
+        <label for="name">Enter your name:</label>
+        <input id="name" type="text"><br>
+        <label for="experience">Please rate your Experience (1-10):</label>
+        <input id="experience" type="number"><br>
+        <button id="submit">Submit</button>
+    </form>
 
-    <a class="form-link" href="form.html">Return to main page</a>
+    <p id="hidden"></p>
+    <a id="form-link" href="index.html">Return to main page</a>
+
+    <script src="js/site.js"></script>
 </body>
 </html>
