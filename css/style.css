@@ -1,4 +1,44 @@
-.form-link {
-    background-color: black;
-    color: white;
+html {
+    display: table;
+    margin: auto;
+    border: none;
+    background-color: gray;
+}
+body{
+    width: 66%;
+    border: 2px solid black;
+    border-radius: .5em;
+    font-family: sans-serif, serif, Arial;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    background-color: white;
+    box-shadow: 1em 1em 1em 0 rgba(0,0,0,0.75);
+}
+main{
+    width: 75%;
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 1em;
+    height: auto;
+}
+footer{
+    text-align: center;
+    font-size: .8em;
+    padding-bottom: .5em;
+}
+footer p{
+    margin: 0%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+@media only screen and (max-width:768px){
+    body{
+        width: 100%;
+    }
 }
